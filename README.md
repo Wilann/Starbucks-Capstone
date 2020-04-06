@@ -10,7 +10,7 @@ Project 7 from Udacity's [Machine Learning Engineer Nanodegree](https://www.udac
 
 This data set contains simulated data that mimics customer behavior on the Starbucks rewards mobile app. 
 Once every few days, Starbucks sends out an offer to users of the mobile app. An offer can be merely an advertisement 
-for a drink or an actual offer such as a discount or BOGO (buy one get one free). Some users might not receive any offer 
+for a drink or an actual offer such as a discount or BOGO (buy one get one free). Some users might not receive any offers 
 during certain weeks.
 
 Not all users receive the same offer, and that is the challenge to solve with this data set.
@@ -32,14 +32,13 @@ or seen an offer.
 
 ### Overview
 
-- Load, explore and visualized data 
+- Load, explore and visualize data
 - Clean and pre-process data
-- Split data into train/test datasetes
+- Split data into train/test datasets
 - Reduce dimensionality using PCA and find vectors of maximal variance
 - Interpret principal components
-- Test and evaluate several supervised learning algorithms with default parameters and pick the one with the highest 
-accuracy and f-score
-- Tune Model hyperparameters with most promising algorithm
+- Test and evaluate several supervised learning algorithms with default parameters and pick the one with the highest accuracy and f-score
+- Tune Model hyperparameters with the most promising algorithm
 - Evaluate model using accuracy and f-score
 - Compare model performance against a naive predictor that always predicts a customer to respond to an offer
 
